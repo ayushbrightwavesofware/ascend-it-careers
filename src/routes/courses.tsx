@@ -71,6 +71,8 @@ function CoursesPage() {
         </div>
       </section>
 
+      <InitiativeShowcase />
+
       <Footer />
       <WhatsAppButton />
     </div>
