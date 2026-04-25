@@ -7,6 +7,7 @@ import { CourseCard } from "@/components/site/CourseCard";
 import { courses } from "@/data/courses";
 import { Button } from "@/components/ui/button";
 import { InitiativeShowcase } from "@/components/site/InitiativeShowcase";
+import { PartnersSection } from "@/components/site/PartnersSection";
 
 export const Route = createFileRoute("/courses")({
   head: () => ({
@@ -44,6 +45,8 @@ function CoursesPage() {
           </p>
         </div>
       </section>
+
+      <PartnersSection />
 
       <section className="pb-20">
         <div className="container mx-auto px-4 sm:px-6 lg:px-8">
