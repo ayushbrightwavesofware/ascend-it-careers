@@ -6,6 +6,7 @@ import { WhatsAppButton } from "@/components/site/WhatsAppButton";
 import { CourseCard } from "@/components/site/CourseCard";
 import { courses } from "@/data/courses";
 import { Button } from "@/components/ui/button";
+import { InitiativeShowcase } from "@/components/site/InitiativeShowcase";
 
 export const Route = createFileRoute("/courses")({
   head: () => ({
