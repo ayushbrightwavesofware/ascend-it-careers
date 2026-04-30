@@ -11,7 +11,7 @@ export function Footer() {
               <div className="w-9 h-9 rounded-xl bg-primary-foreground/10 backdrop-blur flex items-center justify-center">
                 <Shield className="w-5 h-5" />
               </div>
-              <span className="font-bold text-lg">CyberEdge IT</span>
+              <span className="font-bold text-lg">DECODETECH</span>
             </div>
             <p className="text-sm text-primary-foreground/70 leading-relaxed">
               Govt. recognized IT & Cyber Security training with hands-on labs and
@@ -56,14 +56,19 @@ export function Footer() {
             <ul className="space-y-3 text-sm text-primary-foreground/70">
               <li className="flex gap-2"><MapPin className="w-4 h-4 mt-0.5 shrink-0" /> Sector 18, Cyber Hub, Gurugram</li>
               <li className="flex gap-2"><Phone className="w-4 h-4 mt-0.5 shrink-0" /> +91 98765 43210</li>
-              <li className="flex gap-2"><Mail className="w-4 h-4 mt-0.5 shrink-0" /> hello@cyberedge.in</li>
+              <li className="flex gap-2"><Mail className="w-4 h-4 mt-0.5 shrink-0" /> hello@decodetech.com</li>
             </ul>
           </div>
         </div>
 
-        <div className="mt-10 pt-6 border-t border-primary-foreground/10 text-sm text-primary-foreground/60 flex flex-col md:flex-row justify-between gap-2">
-          <p>© {new Date().getFullYear()} CyberEdge IT Institute. All rights reserved.</p>
-          <p>Govt. Recognized • MEITY • NSDC Partner</p>
+        <div className="mt-10 pt-6 border-t border-primary-foreground/10 text-sm text-primary-foreground/60 flex flex-col md:flex-row justify-between items-center gap-4">
+          <p>© {new Date().getFullYear()} DECODETECH Institute. All rights reserved.</p>
+          <div className="flex items-center gap-6">
+            <Link to="/privacy-policy" className="hover:text-primary-foreground transition-colors underline-offset-4 hover:underline">
+              Privacy Policy
+            </Link>
+            <p>Govt. Recognized • MEITY • NSDC Partner</p>
+          </div>
         </div>
       </div>
     </footer>

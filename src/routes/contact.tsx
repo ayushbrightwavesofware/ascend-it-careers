@@ -16,9 +16,9 @@ import { toast } from "sonner";
 export const Route = createFileRoute("/contact")({
   head: () => ({
     meta: [
-      { title: "Contact — CyberEdge IT Institute" },
-      { name: "description", content: "Get in touch with CyberEdge IT — book a free demo, ask about courses or visit our campus." },
-      { property: "og:title", content: "Contact CyberEdge IT" },
+      { title: "Contact — DECODETECH Institute" },
+      { name: "description", content: "Get in touch with DECODETECH — book a free demo, ask about courses or visit our campus." },
+      { property: "og:title", content: "Contact DECODETECH" },
       { property: "og:description", content: "Reach out for course details, demos and placement information." },
     ],
   }),
@@ -136,9 +136,9 @@ function ContactPage() {
           {/* Info */}
           <div className="lg:col-span-2 space-y-4">
             {[
-              { icon: MapPin, title: "Visit us", lines: ["Sector 18, Cyber Hub", "Gurugram, Haryana 122002"] },
-              { icon: Phone, title: "Call us", lines: ["+91 98765 43210", "Mon–Sat 9 AM – 8 PM"] },
-              { icon: Mail, title: "Email", lines: ["hello@cyberedge.in", "admissions@cyberedge.in"] },
+              { icon: MapPin, title: "Visit us", lines: ["1/105, Navrang Arcade, Gokhale Road, Thane West"] },
+              { icon: Phone, title: "Call us", lines: ["+91 8655966336", "Mon–Sat 9 AM – 8 PM"] },
+              { icon: Mail, title: "Email", lines: ["info@dcodetech.in", "admissions@decodetech.com"] },
             ].map((c) => (
               <div key={c.title} className="glass p-5 rounded-2xl card-hover flex gap-4">
                 <div className="w-11 h-11 shrink-0 rounded-xl hero-bg flex items-center justify-center shadow-glow">

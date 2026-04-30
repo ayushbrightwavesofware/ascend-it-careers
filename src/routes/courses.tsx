@@ -12,9 +12,9 @@ import { PartnersSection } from "@/components/site/PartnersSection";
 export const Route = createFileRoute("/courses")({
   head: () => ({
     meta: [
-      { title: "Courses — CyberEdge IT" },
-      { name: "description", content: "Explore industry-aligned IT & Cyber Security programs with hands-on labs and placement support." },
-      { property: "og:title", content: "All Courses — CyberEdge IT" },
+      { title: "Courses — DECODETECH" },
+      { name: "description", content: "Browse all IT & Cyber Security courses at DECODETECH." },
+      { property: "og:title", content: "All Courses — DECODETECH" },
       { property: "og:description", content: "Cyber Security, Ethical Hacking, Data Science, Python and more." },
     ],
   }),

@@ -9,9 +9,9 @@ import classImg from "@/assets/hero-classroom.jpg";
 export const Route = createFileRoute("/about")({
   head: () => ({
     meta: [
-      { title: "About — CyberEdge IT Institute" },
-      { name: "description", content: "Govt. recognized IT training institute with 8+ years of excellence, expert trainers and 10,000+ successful alumni." },
-      { property: "og:title", content: "About CyberEdge IT" },
+      { title: "About — DCODETECH Institute" },
+      { name: "description", content: "Learn about DCODETECH's mission, team and commitment to IT training excellence." },
+      { property: "og:title", content: "About DCODETECH" },
       { property: "og:description", content: "Our mission, vision and team behind India's leading IT & Cyber Security training institute." },
     ],
   }),
@@ -46,7 +46,7 @@ function AboutPage() {
               8+ Years of <span className="gradient-text">Tech Excellence</span>
             </h1>
             <p className="text-lg text-muted-foreground leading-relaxed">
-              CyberEdge IT Institute was founded with a simple mission — to bridge the gap
+              DECODETECH was founded with a simple mission — to bridge the gap
               between academic learning and industry expectations. Today, we're one of India's
               most trusted destinations for IT and Cyber Security training.
             </p>
@@ -96,7 +96,7 @@ function AboutPage() {
       <section className="py-20 bg-secondary/40">
         <div className="container mx-auto px-4">
           <div className="text-center max-w-2xl mx-auto mb-12">
-            <h2 className="text-3xl md:text-4xl font-extrabold mb-4">Why Choose <span className="gradient-text">CyberEdge?</span></h2>
+            <h2 className="text-3xl md:text-4xl font-extrabold mb-4">Why Choose <span className="gradient-text">DECODETECH?</span></h2>
             <p className="text-muted-foreground">Built different — every detail designed for your career success.</p>
           </div>
           <div className="grid sm:grid-cols-2 lg:grid-cols-4 gap-6">

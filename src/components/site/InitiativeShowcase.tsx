@@ -22,7 +22,7 @@ const stories = [
   {
     name: "Rohit Patil",
     role: "Cyber Security Analyst | Placed at Wipro",
-    text: "CyberEdge not only improved my technical skills but also gave me the confidence to build my career in Cyber Security. The placement support is excellent!",
+    text: "DECODETECH not only improved my technical skills but also gave me the confidence to build my career in Cyber Security. The placement support is excellent!",
     img: studentImg,
   },
   {
@@ -203,13 +203,13 @@ export function InitiativeShowcase() {
                 <p className="font-bold text-sm">+91 8655966336</p>
               </div>
             </a>
-            <a href="mailto:hello@cyberedge.in" className="flex items-center gap-3 hover:opacity-90">
+            <a href="mailto:hello@decodetech.com" className="flex items-center gap-3 hover:opacity-90">
               <div className="w-11 h-11 rounded-full bg-primary-foreground/15 backdrop-blur flex items-center justify-center">
                 <Mail className="w-5 h-5" />
               </div>
               <div>
                 <p className="text-xs opacity-80 font-semibold">EMAIL US</p>
-                <p className="font-bold text-sm">hello@cyberedge.in</p>
+                <p className="font-bold text-sm">hello@decodetech.com</p>
               </div>
             </a>
             <a
